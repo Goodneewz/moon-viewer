@@ -19,3 +19,4 @@ certs/
 .vscode/
 vars
 .python-version
+".env" 
