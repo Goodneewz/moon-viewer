@@ -17,9 +17,11 @@ One collection — "moon_features" — stores documents of the form:
         "$vector":     list[float],     # 768-d embedding (image or text)
     }
 """
+
+from __future__ import annotations
+
 from dotenv import load_dotenv
 load_dotenv()
-from __future__ import annotations
 
 import os
 from typing import Any, Optional
